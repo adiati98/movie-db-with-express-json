@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 50vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  max-width: 30vw;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+}
+
+.container {
+  flex-grow: 1;
+}
+
+.navbar {
+  width: 100vw;
+	padding-top: 5px;
+  margin-top: 20px;
+}
+
+.navbar-right {
+	list-style: none;
+	display: flex;
+  flex-direction: row;
+}
+
+.navbar-list {
+	margin-right: 100px;
+	font-size: 1.3rem;
+}
+
+.navbar-list a {
+  text-decoration: none;
+  color: royalblue;
+}
+
+.navbar-list a:hover {
+  background-color: royalblue;
+  color: beige;
+	padding: 0.8rem;
+	border-radius: 20px;
+}
+
+input[type="text"], input[type="url"] {
+  border: 1px solid #cccccc;
+  padding: 8px;
+  margin: 5px 0;
+  width: 30vw;
+}
+
+input[type="radio"] {
+  border: 1px solid #cccccc;
+  padding: 8px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  border: 1px solid #cccccc;
+  padding: 8px;
+  margin: 5px 0;
+  width: 30vw;
+}
+
+h1 {
+  font-size: 3em;
+  margin-top: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.movie-list {
+  list-style: none;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  margin-top: 16px;
+  padding: 16px 0; 
+}
